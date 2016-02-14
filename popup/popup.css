@@ -1,0 +1,35 @@
+body {
+    font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+    font-size: 100%;
+    min-width:500px;
+    min-height:125px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.success {
+    display: none;
+}
+
+.error {
+    display: none;
+}
+
+.glyphicon {
+    font-size: 20px;
+}
+
+.padded {
+    padding-top: 40px;
+}
+
+.center {
+    text-align:center;
+
+}
