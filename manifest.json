@@ -19,7 +19,7 @@
         "<all_urls>"
     ],
     "content_scripts": [{
-        "js": ["jquery.min.js", "YourJavaScriptFile.js"],
+        "js": ["popup/popup.js"],
         "matches": ["http://*/*", "https://*/*"]
     }],
     "options_page": "options/options.html",
