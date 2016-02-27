@@ -22,6 +22,14 @@
         "js": ["popup/popup.js"],
         "matches": ["http://*/*", "https://*/*"]
     }],
+    "commands": {
+        "fill_all_inputs": {
+            "suggested_key": {
+                "default": "Alt+Space"
+            },
+            "description": "Fill forms"
+        }
+    },
     "options_page": "options/options.html",
     "background": { "scripts": ["background/background.js"] },
     "manifest_version": 2,

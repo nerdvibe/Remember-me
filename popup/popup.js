@@ -15,7 +15,15 @@ $( document ).ready(function() {
     if (event.which == 13 && !event.shiftKey) {
       console.log("Key pressed");
       event.preventDefault();
-      reminder = parseReminder();
+      try{
+        reminder = parseReminder();
+      }
+      catch (e) {
+        $(".note").hide();
+        $(".error").show();
+        throw("Not parsed");
+      }
+
       $(".note").hide();
       $(".success").show();
       $(".time").text(reminder.whenNatural);
