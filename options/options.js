@@ -1,8 +1,7 @@
 
 
 /*
-  Grays out or [whatever the opposite of graying out is called] the option
-  field.
+  This is just an example, TODO
 */
 function ghost(isDeactivated) {
   options.style.color = isDeactivated ? 'graytext' : 'black';
